@@ -7,7 +7,7 @@ export default function Hero() {
       <h1 className={titleStyles} data-aos="fade-up">
         Project Name
       </h1>
-      {['Yousef Kart', 'Vivek', 'Nisarg Patel', 'Aravind Reddy'].map(
+      {['Aravind Reddy', 'Nisarg Patel', 'Vivek', 'Yousef Kart'].map(
         (name, index) => (
           <h2
             key={index}
