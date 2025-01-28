@@ -9,12 +9,11 @@ const MilestoneItem = ({
 }) => {
   return (
     <li className="flex flex-col items-center" data-aos="fade-up">
-      <div className="relative group"></div>
-      <div className="transition-transform transform group-hover:scale-105">
+      <div className="">
         <img
           src={image}
           alt={title}
-          className="rounded-full"
+          className="w-64 h-64"
           style={{ borderRadius: '5%' }}
         />
         <h3 className="mt-2 text-xl font-semibold">{title}</h3>

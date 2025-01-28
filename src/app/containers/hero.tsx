@@ -18,7 +18,7 @@ export default function Hero() {
           </h2>
         ),
       )}
-      <p className="w-1/5 text-center mt-16" data-aos="fade-up">
+      <p className="w-2/5 text-center mt-16" data-aos="fade-up">
         A short animated video exploring themes of nostalgia, connection, and
         hope through the perspective of two cars—one modern, one vintage.
       </p>
