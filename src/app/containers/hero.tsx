@@ -5,7 +5,7 @@ export default function Hero() {
   return (
     <header className={`${commonStyles} bg-primary`}>
       <h1 className={titleStyles} data-aos="fade-up">
-        Project Name
+        The Last Ride
       </h1>
       {['Aravind Reddy', 'Nisarg Patel', 'Vivek', 'Yousef Kart'].map(
         (name, index) => (
@@ -18,8 +18,9 @@ export default function Hero() {
           </h2>
         ),
       )}
-      <p className="w-2/5 text-center mt-16" data-aos="fade-up">
-        Description
+      <p className="w-1/5 text-center mt-16" data-aos="fade-up">
+        A short animated video exploring themes of nostalgia, connection, and
+        hope through the perspective of two cars—one modern, one vintage.
       </p>
     </header>
   );
