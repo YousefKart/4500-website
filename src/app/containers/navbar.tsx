@@ -11,10 +11,10 @@ export default function Navbar() {
           </a>
         </li>
         <li className="p-3 text-xl font-bold">
-          <a href="#skills">Storyboard</a>
+          <a href="#storyboard">Storyboard</a>
         </li>
         <li className="p-3 text-xl font-bold">
-          <a href="#projects">Milestones</a>
+          <a href="#milestones">Milestones</a>
         </li>
         <li className="p-3 text-xl font-bold">
           <a href="#models">Models</a>
