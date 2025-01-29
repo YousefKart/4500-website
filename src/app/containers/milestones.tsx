@@ -15,54 +15,63 @@ export default function Milestones() {
             title: 'Storyboard',
             date: '2025-01-23',
             image: 'images/storyboard.jpg',
+            status: 'done',
           },
           {
             title: 'Models',
             date: '2023-01-30',
             image:
               'https://bbsupply.ca/wp-content/uploads/2018/11/Image-Coming-Soon-Placeholder.png',
+            status: 'pending',
           },
           {
             title: 'Textures',
             date: '2023-02-06',
             image:
               'https://bbsupply.ca/wp-content/uploads/2018/11/Image-Coming-Soon-Placeholder.png',
+            status: 'planned',
           },
           {
             title: 'Animations',
             date: '2023-02-13',
             image:
               'https://bbsupply.ca/wp-content/uploads/2018/11/Image-Coming-Soon-Placeholder.png',
+            status: 'planned',
           },
           {
             title: 'Polish',
             date: '2023-02-20',
             image:
               'https://bbsupply.ca/wp-content/uploads/2018/11/Image-Coming-Soon-Placeholder.png',
+            status: 'planned',
           },
           {
             title: 'Renders',
             date: '2023-02-27',
             image:
               'https://bbsupply.ca/wp-content/uploads/2018/11/Image-Coming-Soon-Placeholder.png',
+            status: 'planned',
           },
           {
             title: 'Sound Design',
             date: '2023-03-06',
             image:
               'https://bbsupply.ca/wp-content/uploads/2018/11/Image-Coming-Soon-Placeholder.png',
+            status: 'planned',
           },
           {
             title: 'Editing',
             date: '2023-03-13',
             image:
               'https://bbsupply.ca/wp-content/uploads/2018/11/Image-Coming-Soon-Placeholder.png',
+            status: 'planned',
           },
           {
             title: 'Review',
             date: '2023-03-20',
             image:
               'https://bbsupply.ca/wp-content/uploads/2018/11/Image-Coming-Soon-Placeholder.png',
+            status: 'planned',
           },
         ].map((milestone, index) => (
           <MilestoneItem
@@ -70,6 +79,7 @@ export default function Milestones() {
             title={milestone.title}
             date={milestone.date}
             image={milestone.image}
+            status={milestone.status}
           />
         ))}
       </ul>
