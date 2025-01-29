@@ -44,14 +44,14 @@ export default function Storyboard() {
             desc: 'Description',
           },
         ].map((milestone, index) => (
-          <li key={index}>
+          <div key={index}>
             <StoryboardItem
               image={milestone.image}
               desc={milestone.desc}
               reverse={index % 2 === 1}
             />
             {index < 7 && <hr className="my-4 border-gray-500" />}
-          </li>
+          </div>
         ))}
       </ul>
     </div>

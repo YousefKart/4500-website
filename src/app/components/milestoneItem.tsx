@@ -13,7 +13,7 @@ const MilestoneItem = ({
         <img
           src={image}
           alt={title}
-          className="w-64 h-64"
+          className="w-64 h-64 object-cover shadow-[10px_10px_20px_rgba(0,0,0,0.5)]"
           style={{ borderRadius: '5%' }}
         />
         <h3 className="mt-2 text-xl font-semibold">{title}</h3>

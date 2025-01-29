@@ -16,7 +16,12 @@ const StoryboardItem = ({
       } items-center justify-between`}
       data-aos="fade-up"
     >
-      <img src={image} alt={desc} className="h-1/3" />
+      <img
+        src={image}
+        alt={desc}
+        className="h-1/3 shadow-[10px_10px_20px_rgba(0,0,0,0.5)]"
+        style={{ borderRadius: '5%' }}
+      />
       <div className="flex-1 flex justify-center">
         <p className="p-4 text-center">{desc}</p>
       </div>
