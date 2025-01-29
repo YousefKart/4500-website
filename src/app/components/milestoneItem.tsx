@@ -10,7 +10,7 @@ const MilestoneItem = ({
   title: string;
   date: string;
   image: string;
-  status: String;
+  status: string;
 }) => {
   return (
     <li className="flex flex-col items-center" data-aos="fade-up">
