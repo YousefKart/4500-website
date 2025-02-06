@@ -26,11 +26,11 @@ export default function Home() {
 
       <div className={`${commonStyles} flex-grow mt-12`}>
         <Hero />
-        <main className={`${commonStyles} bg-primary`}>
+        <main className={`${commonStyles} bg-black text-white text-shadow`}>
+          <Analytics />
           <Storyboard />
           <Milestones />
           <Models />
-          <Analytics />
         </main>
       </div>
 
