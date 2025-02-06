@@ -19,7 +19,7 @@ const StoryboardItem = ({
       <img
         src={image}
         alt={desc}
-        className="h-1/3 shadow-[10px_10px_20px_rgba(0,0,0,0.5)]"
+        className="h-1/3 border-2 border-white shadow-[10px_10px_20px_rgba(0,0,0,1)]"
         style={{ borderRadius: '5%' }}
       />
       <div className="flex-1 flex justify-center">

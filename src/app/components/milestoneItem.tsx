@@ -18,7 +18,7 @@ const MilestoneItem = ({
         <img
           src={image}
           alt={title}
-          className="w-64 h-64 object-cover shadow-[10px_10px_20px_rgba(0,0,0,0.5)]"
+          className="w-64 h-64 object-cover border-2 border-white shadow-[10px_10px_20px_rgba(0,0,0,1)]"
           style={{ borderRadius: '5%' }}
         />
         <div className="flex justify-between">
