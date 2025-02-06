@@ -5,7 +5,7 @@ const imageStyles = 'w-full object-cover opacity-75';
 export default function Hero() {
   return (
     <header className={`${commonStyles} bg-black text-white relative`}>
-      <div className="absolute inset-x-0 inset-y-12 top-0">
+      <div className="absolute inset-x-0 inset-y-12 top-[-50px]">
         <img src="images\Hero Image 1.png" className={`${imageStyles}`} />
         <img src="images\Hero Image 2.png" className={`${imageStyles}`} />
         <img src="images\Hero Image 3.jpg" className={`${imageStyles}`} />
