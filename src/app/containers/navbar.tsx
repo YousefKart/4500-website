@@ -40,7 +40,7 @@ export default function Navbar() {
       </ul>
       <ul className="flex justify-end space-between w-1/2 gap-8 pr-8">
         <li>
-          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+          <a href="" target="_blank">
             <FaYoutube className="h-8 w-8 mt-2" />
           </a>
         </li>

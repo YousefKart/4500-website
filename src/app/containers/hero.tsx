@@ -2,18 +2,17 @@ const commonStyles = 'w-full flex flex-col items-center';
 const titleStyles = 'border-b-2 border-tertiary text-4xl font-bold mt-16 mb-4';
 const imageStyles = 'w-full object-cover opacity-75';
 
+import Footer from '../containers/footer';
+
 export default function Hero() {
   return (
     <header className={`${commonStyles} bg-black text-white relative`}>
-      <div className="absolute inset-x-0 inset-y-12 top-[-50px]">
+      <div className="absolute top-[-50px]">
         <img src="images\Hero Image 1.png" className={`${imageStyles}`} />
         <img src="images\Hero Image 2.png" className={`${imageStyles}`} />
         <img src="images\Hero Image 3.jpg" className={`${imageStyles}`} />
         <img src="images\Hero Image 4.jpg" className={`${imageStyles}`} />
-        <img
-          src="images\Hero Image 5.jpg"
-          className={`${imageStyles} h-full`}
-        />
+        <Footer />
       </div>
       <div className={`flex flex-col items-center relative z-10`}>
         <h1 className={`${titleStyles} shadow-lg`} data-aos="fade-up">
