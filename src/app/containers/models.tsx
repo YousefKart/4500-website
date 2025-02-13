@@ -18,10 +18,9 @@ export default function Models() {
               'https://bbsupply.ca/wp-content/uploads/2018/11/Image-Coming-Soon-Placeholder.png',
           },
           {
-            title: 'Modern Car',
+            title: 'Futuristic Car',
             date: '2023-01-30',
-            image:
-              'https://bbsupply.ca/wp-content/uploads/2018/11/Image-Coming-Soon-Placeholder.png',
+            image: 'images/Futuristic Car.png',
           },
           {
             title: 'NPC Cars',

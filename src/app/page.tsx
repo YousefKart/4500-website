@@ -9,7 +9,6 @@ import Hero from './containers/hero';
 import Storyboard from './containers/storyboard';
 import Milestones from './containers/milestones';
 import Models from './containers/models';
-import Footer from './containers/footer';
 
 const commonStyles = 'w-full flex flex-col items-center';
 
