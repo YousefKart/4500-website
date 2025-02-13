@@ -19,54 +19,54 @@ export default function Milestones() {
           },
           {
             title: 'Models',
-            date: '2025-01-30',
+            date: '2025-02-06',
             image: 'images/Futuristic Cars.png',
-            status: 'pending',
+            status: 'done',
           },
           {
             title: 'Textures',
-            date: '2025-02-06',
+            date: '2025-02-13',
             image: 'images/texture example.png',
-            status: 'planned',
+            status: 'pending',
           },
           {
             title: 'Animations',
-            date: '2025-02-13',
+            date: '2025-02-27',
             image:
               'https://bbsupply.ca/wp-content/uploads/2018/11/Image-Coming-Soon-Placeholder.png',
-            status: 'planned',
+            status: 'pending',
           },
           {
             title: 'Polish',
-            date: '2025-02-20',
-            image:
-              'https://bbsupply.ca/wp-content/uploads/2018/11/Image-Coming-Soon-Placeholder.png',
-            status: 'planned',
-          },
-          {
-            title: 'Renders',
             date: '2025-02-27',
             image:
               'https://bbsupply.ca/wp-content/uploads/2018/11/Image-Coming-Soon-Placeholder.png',
             status: 'planned',
           },
           {
-            title: 'Sound Design',
+            title: 'Renders',
             date: '2025-03-06',
             image:
               'https://bbsupply.ca/wp-content/uploads/2018/11/Image-Coming-Soon-Placeholder.png',
             status: 'planned',
           },
           {
-            title: 'Editing',
+            title: 'Sound Design',
             date: '2025-03-13',
             image:
               'https://bbsupply.ca/wp-content/uploads/2018/11/Image-Coming-Soon-Placeholder.png',
             status: 'planned',
           },
           {
-            title: 'Review',
+            title: 'Editing',
             date: '2025-03-20',
+            image:
+              'https://bbsupply.ca/wp-content/uploads/2018/11/Image-Coming-Soon-Placeholder.png',
+            status: 'planned',
+          },
+          {
+            title: 'Review',
+            date: '2025-03-27',
             image:
               'https://bbsupply.ca/wp-content/uploads/2018/11/Image-Coming-Soon-Placeholder.png',
             status: 'planned',
