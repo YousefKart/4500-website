@@ -23,7 +23,7 @@ const StoryboardItem = ({
         style={{ borderRadius: '5%' }}
       />
       <div className="flex-1 flex justify-center">
-        <p className="p-4 text-center">{desc}</p>
+        <p className="p-4 text-center w-2/3 text-lg">{desc}</p>
       </div>
     </li>
   );
