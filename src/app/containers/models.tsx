@@ -13,36 +13,30 @@ export default function Models() {
         {[
           {
             title: 'Vintage Car',
-            date: '2025-01-23',
             image:
               'images/Vintage Car.png',
           },
           {
             title: 'Futuristic Car',
-            date: '2023-01-30',
             image: 'images/Futuristic Car.png',
           },
           {
             title: 'NPC Cars',
-            date: '2023-02-06',
             image:
               'https://bbsupply.ca/wp-content/uploads/2018/11/Image-Coming-Soon-Placeholder.png',
           },
           {
             title: 'Old City',
-            date: '2025-01-23',
             image:
               'images/Old City.png',
           },
           {
             title: 'New City',
-            date: '2023-01-30',
             image:
               'images/New City.jpg',
           },
           {
             title: 'Garage',
-            date: '2023-02-06',
             image:
               'https://bbsupply.ca/wp-content/uploads/2018/11/Image-Coming-Soon-Placeholder.png',
           },
