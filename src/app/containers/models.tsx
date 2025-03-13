@@ -18,7 +18,7 @@ export default function Models() {
           },
           {
             title: 'Futuristic Car',
-            image: 'images/Futuristic Car.png',
+            image: 'images/Futuristic Car2.png',
           },
           {
             title: 'NPC Cars',
@@ -38,7 +38,7 @@ export default function Models() {
           {
             title: 'Garage',
             image:
-              'https://bbsupply.ca/wp-content/uploads/2018/11/Image-Coming-Soon-Placeholder.png',
+              'images/Garage.png',
           },
         ].map((milestone, index) => (
           <ModelItem

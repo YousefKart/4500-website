@@ -36,6 +36,8 @@ export default function Hero() {
           A short animated video exploring themes of nostalgia, connection, and
           hope through the perspective of two cars—one modern, one vintage.
         </p>
+        <a href="https://drive.google.com/drive/folders/1U55ieWMyeOnUsdEaQCTDSIZO3xdjUADy?usp=sharing" target="_blank" rel="noreferrer" className="mt-8 bg-tertiary text-black px-8 py-2 rounded-full shadow-md" data-aos="fade-up">
+          Watch Now</a>
       </div>
     </header>
   );

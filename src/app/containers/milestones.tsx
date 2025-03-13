@@ -33,14 +33,14 @@ export default function Milestones() {
             title: 'Animations',
             date: '2025-02-27',
             image:
-              'https://bbsupply.ca/wp-content/uploads/2018/11/Image-Coming-Soon-Placeholder.png',
+              'images/AnimationPic.png',
             status: 'pending',
           },
           {
             title: 'Polish',
             date: '2025-03-06',
             image:
-              'https://bbsupply.ca/wp-content/uploads/2018/11/Image-Coming-Soon-Placeholder.png',
+              'images/Futuristic Car.png',
             status: 'pending',
           },
           {
