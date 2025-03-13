@@ -48,14 +48,14 @@ export default function Milestones() {
             date: '2025-03-13',
             image:
               'https://bbsupply.ca/wp-content/uploads/2018/11/Image-Coming-Soon-Placeholder.png',
-            status: 'planned',
+            status: 'pending',
           },
           {
             title: 'Sound Design',
             date: '2025-03-20',
             image:
               'https://bbsupply.ca/wp-content/uploads/2018/11/Image-Coming-Soon-Placeholder.png',
-            status: 'planned',
+            status: 'pending',
           },
           {
             title: 'Editing',
